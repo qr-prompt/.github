@@ -22,14 +22,16 @@ A single scan/click opens the QRPrompt handler, loads only the provided JSON dat
 Syntax:
 
 <pre><code>qrprompt://run?payload=&lt;base64url(JSON)&gt;</code></pre>
-
+Example (before base64url ):
+<pre>qrprompt://run?url=https://raw.githubusercontent.com/qr-prompt/.github/e3521ee07e8594087a411b5943e22bbf5cc3f428/profile/qrprompt-json.json
+</pre>
 
 <ul>
   <li><code>payload</code> = JSON encoded with Base64URL (UTF-8, no <code>=</code> padding)</li>
   <li>Use URL-safe Base64 (<code>-</code> and <code>_</code> instead of <code>+</code> and <code>/</code>)</li>
 </ul>
 
-<h2>Example JSON (before base64url)</h2>
+<h2>Example JSON </h2>
 <pre><code>{
   "version": "1.0",
   "command": "qrprompt",
