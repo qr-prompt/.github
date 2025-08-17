@@ -53,7 +53,7 @@ Syntax:
 
 <h2>Workflow</h2>
 <p>
-  <img src="./docs/qrprompt_workflow_policy_clean.png" alt="QRPrompt Workflow (JSON from URL + explicit policy)" width="900" />
+  <img src="./json-apka.png" alt="QRPrompt Workflow (JSON from URL + explicit policy)" width="600" />
 </p>
 
 <h2>Example Use Case — Food Products</h2>
