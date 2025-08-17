@@ -25,6 +25,12 @@ A single scan/click opens the QRPrompt handler, fetches the JSON data, and runs 
 <pre>qrprompt://run?url=https://raw.githubusercontent.com/qr-prompt/.github/e3521ee07e8594087a411b5943e22bbf5cc3f428/profile/qrprompt-json.json
 </pre>
 
+
+<p>
+  <img src="./qr-prompt.png" alt="QRPrompt Workflow (JSON from URL + explicit policy)" width="200" />
+</p>
+
+
 <ul>
   
 
