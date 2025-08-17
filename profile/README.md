@@ -23,7 +23,7 @@ Syntax:
 
 <pre><code>qrprompt://run?payload=&lt;base64url(JSON)&gt;</code></pre>
 
-<pre><code>qrprompt://run?payload=&lt;base64url(JSON)&gt;</code></pre>
+
 <ul>
   <li><code>payload</code> = JSON encoded with Base64URL (UTF-8, no <code>=</code> padding)</li>
   <li>Use URL-safe Base64 (<code>-</code> and <code>_</code> instead of <code>+</code> and <code>/</code>)</li>
