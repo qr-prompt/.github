@@ -36,11 +36,11 @@ Syntax:
   "meta": {
     "product_name": "Widget X"
   },
-  "data": {
-    "mode": "url",
-    "type": "json",
-    "url": "https://example.com/product.json"
-  },
+  "data": [
+    { "mode": "url", "type": "json", "url": "https://example.com/product.json" },
+    { "mode": "url", "type": "json", "url": "https://example.com/leaflet.json" },
+    { "mode": "url", "type": "json", "url": "https://example.com/nutrition.json" }
+  ],
   "policy": {
     "offline_only": true,
     "restrict_to_input": true,
@@ -49,7 +49,8 @@ Syntax:
   "prompt": {
     "system": "You are an assistant restricted to the provided JSON data. Do not browse the internet or use external knowledge. If data is missing, answer exactly: 'Not provided'. After loading the data, do not summarize or answer yet. Your first message must be exactly: \"Waiting for your questions about '{{product_name}}'?\". During the conversation, answer only from the input data."
   }
-}</code></pre>
+}
+</code></pre>
 
 <h2>Workflow</h2>
 <p>
