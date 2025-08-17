@@ -81,6 +81,28 @@ Syntax:
   <li><strong>Finance/Contracts</strong> — policies, conditions, procedures</li>
 </ul>
 
+📱 Example QR Code (Prototype)
+
+Below is a prototype QR code that demonstrates how QRPrompt could work today:
+
+<p align="center"> <img src="./qr-code.png" alt="QRPrompt Example QR" width="300"/> </p>
+Notes
+
+The QR code is long because the current format directly encodes the entire system prompt and policy into the link.
+
+This version is meant to showcase the concept — scanning the QR opens ChatGPT with strict rules (context = JSON file only, no internet, no hallucinations, no medical advice).
+
+In the future, this can be simplified:
+
+the QR would only contain a short qrprompt:// link,
+
+the assistant would fetch the JSON + policy from the server,
+
+keeping QR codes short, robust, and easier to generate.
+
+⚠️ Important: This QR is for demonstration purposes only. It shows the potential of QRPrompt but is not yet optimized for production use.
+
+
 <h2>Vision</h2>
 <p>
   We believe AI interactions should be as easy as scanning a QR code—bringing
