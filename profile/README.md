@@ -103,6 +103,7 @@ keeping QR codes short, robust, and easier to generate.
 ⚠️ Important: This QR is for demonstration purposes only. It shows the potential of QRPrompt but is not yet optimized for production use.
 ⚠️ Limitation: This currently only works when the ChatGPT app (or web) supports direct links from OpenAI. Without this feature, the link will not be executed automatically.
 
+<p align="center"> <img src="./test.jpg" alt="QRPrompt Example QR" width="300"/> </p>
 
 <h2>Vision</h2>
 <p>
