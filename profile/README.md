@@ -87,5 +87,4 @@ Syntax:
 </p>
 
 <hr/>
-<p><em>Tip:</em> place the workflow image at <code>docs/qrprompt_workflow_policy_clean.png</code>.
-If you prefer the compact version, use <code>docs/qrprompt_workflow_policy_smaller_clouds.png</code> instead.</p>
+
