@@ -17,18 +17,23 @@ Interactive help instead of static manuals
 
 🔗 QR Link Format
 
-A single scan/click opens the QRPrompt handler, loads only the provided JSON data, and runs the AI in restricted mode (no internet, no external knowledge).
+A single scan/click opens the QRPrompt handler, fetches the JSON data, and runs the AI in restricted mode (no internet browsing, no external knowledge beyond the provided file).
 
-Syntax:
 
-<pre><code>qrprompt://run?payload=&lt;base64url(JSON)&gt;</code></pre>
-Example (before base64url ):
+<pre><code>qrprompt://run?url=direct_link_to_JSON</code></pre>
+
 <pre>qrprompt://run?url=https://raw.githubusercontent.com/qr-prompt/.github/e3521ee07e8594087a411b5943e22bbf5cc3f428/profile/qrprompt-json.json
 </pre>
 
 <ul>
-  <li><code>payload</code> = JSON encoded with Base64URL (UTF-8, no <code>=</code> padding)</li>
-  <li>Use URL-safe Base64 (<code>-</code> and <code>_</code> instead of <code>+</code> and <code>/</code>)</li>
+  
+
+<li> The app fetches the JSON from the given URL. </li>
+
+<li> QR codes stay short and robust. </li>
+<li>For additional obscurity, JSON file names can be encoded (for example using Base64 or hex).</li>
+
+  
 </ul>
 
 <h2>Example JSON </h2>
